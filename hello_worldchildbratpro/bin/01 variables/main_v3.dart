@@ -3,7 +3,7 @@ import 'dart:math'; // Libreria para realizar operaciones matematicas (potencia,
 
 void main() {
   // Binomio al cuadrado >>
-    
+
   var a = int.parse(stdin.readLineSync());
 
   print('b:');
@@ -11,7 +11,6 @@ void main() {
   print('y:');
   var y = int.parse(stdin.readLineSync());
 
-
-  var potencia = pow(8*a*2*b + 7*a*b*6*pow(y, 2) , 2);
+  var potencia = pow(8 * a * 2 * b + 7 * a * b * 6 * pow(y, 2), 2);
   print('binomio $potencia');
 }

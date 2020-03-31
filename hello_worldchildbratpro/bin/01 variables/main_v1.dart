@@ -7,9 +7,8 @@ void main() {
   var a = int.parse(stdin.readLineSync());
   print('b');
   var b = int.parse(stdin.readLineSync());
-  print(a + b)  ;
-  print((a - b) );
+  print(a + b);
+  print((a - b));
   print(a * b);
   print((a / b));
-
 }

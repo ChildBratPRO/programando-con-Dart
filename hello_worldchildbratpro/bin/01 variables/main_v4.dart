@@ -13,12 +13,10 @@ void main() {
   var y = int.parse(stdin.readLineSync());
 
   var potencia = pow((x + y), 2);
-  var cuadrada = sqrt (pow(x, 2) - pow(y, 5));
+  var cuadrada = sqrt(pow(x, 2) - pow(y, 5));
   var koseno = (cos(x + y) - sin(y - x));
 
   print('Potencia: $potencia');
   print('Raiz Cuadrada: $cuadrada');
   print('Coseno: $koseno');
-
-  
 }
